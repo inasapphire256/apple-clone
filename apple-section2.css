@@ -1,0 +1,595 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}
+
+#first {
+  width: 100%;
+  height: 560px;
+  background-image: url("https://www.apple.com/v/home/ap/images/heroes/iphone-13/hero_iphone13_avail__gnqqkzuai6um_mediumtall_2x.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  align-items: center;
+  margin-bottom: -55px;
+  padding-top: 10px;
+}
+
+#second {
+  display: flex;
+  flex-direction: row;
+}
+
+#iphone-13-pro {
+  width: 50%;
+  height: 700px;
+  background-image: url("https://www.apple.com/v/home/ap/images/promos/iphone-13-pro/promo_iphone13pro_avail__beadms4ldidu_large.jpg");
+  background-position: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: -10px;
+}
+
+#watch {
+  width: 50%;
+  height: 700px;
+  background-image: url("https://www.apple.com/v/home/ap/images/promos/watch-series-7/promo_watch_lte__djeaso7ukrsm_large.jpg");
+  background-position: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: -60px;
+}
+.links {
+  display: inline-block;
+  color: #06c;
+  font-family: Arial;
+  margin: 10px;
+  text-decoration: none;
+}
+.links:hover {
+  text-decoration: underline;
+}
+#link-div {
+  display: flex;
+  justify-content: center;
+}
+#ipad-air {
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+  width: 50%;
+  height: 700px;
+  background-image: url("https://www.apple.com/v/home/ap/images/promos/ipad-air/promo_ipadair_avail__ferd4bfpcdm6_medium_2x.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  align-items: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: -40px;
+  margin-bottom: 5px;
+  background-size: cover;
+}
+#air {
+  font-family: cursive;
+  color: darkorchid;
+  font-size: 35px;
+  text-align: center;
+}
+
+#ipad {
+  font-family: Arial;
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.cookingmamacuisine {
+  display: flex;
+  background-color: darkslateblue;
+  margin: 25px;
+  width: 50%;
+  height: 700px;
+  flex-direction: column;
+  background-image: url("https://www.apple.com/v/home/ap/images/promos/arcade-cooking-mama/tile_arcade_cooking_mama__dasht2wtew02_medium_2x.jpg");
+  background-position: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: -40px;
+  margin-bottom: 5px;
+}
+
+.link {
+  display: inline-block;
+  color: #06c;
+  padding-right: 35px;
+  font-family: Arial;
+  margin: 10px;
+  text-decoration: none;
+}
+.link:hover {
+  text-decoration: underline;
+}
+#first-row {
+  display: flex;
+  flex-direction: row;
+}
+
+#ipad-air-title {
+  width: 100%;
+}
+#chacha {
+  width: 50%;
+  height: 100%;
+  background-image: url("https://www.apple.com/v/home/ap/images/promos/tv-plus-cha-cha-real-smooth/promo_cha_cha__bqi73prhci9y_large.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#apple-card {
+  width: 50%;
+  background-size: 1262px 580px;
+  background-repeat: no-repeat;
+  background-image: url("https://www.apple.com/v/home/ap/images/promos/apple-card/tile__cauwwcyyn9hy_large_2x.jpg");
+  background-position: center top;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.bold-names {
+  font-weight: 800;
+  text-transform: uppercase;
+  padding-right: 34px;
+  padding-left: 5px;
+  font-family: Arial;
+  margin-top: 11px;
+  padding-bottom: 6px;
+}
+
+.not-bolded-names {
+  display: flex;
+  justify-content: center;
+  font-family: Arial;
+  font-size: 21;
+  margin-top: 4px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.linka {
+  display: inline-block;
+  color: black;
+  justify-content: center;
+  text-align: center;
+  font-family: Arial;
+  margin-top: 4px;
+  margin-right: 10px;
+  margin: 10px;
+  text-decoration: none;
+}
+.linka:hover {
+  text-decoration: underline;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+#outer-div {
+  width: 97%;
+  height: 94%;
+  margin: 0 auto;
+  border: 5px white;
+  display: flex;
+}
+
+#card-h1 {
+  color: black;
+  text-align: center;
+  margin: 0;
+  font-family: Arial;
+  padding-top: 30px;
+}
+#p1 {
+  color: black;
+  text-align: center;
+  width: 50%;
+  font-family: Arial;
+  font-size: 20px;
+}
+#div-card-text {
+  text-align: center;
+}
+#chacha-h2 {
+  font-size: 35px;
+  justify-content: center;
+  color: black;
+  text-align: center;
+  margin: 0;
+  font-family: Arial;
+  padding-top: 30px;
+}
+#chacha-h5 {
+  font-size: 40px;
+  justify-content: center;
+  color: black;
+  text-align: center;
+  margin: 0;
+  font-family: Arial;
+}
+
+#chacha-h6 {
+  font-size: 30px;
+  justify-content: center;
+  color: black;
+  text-align: center;
+  margin: 0;
+  font-family: Arial;
+}
+#card-div {
+  display: flex;
+  justify-content: center;
+}
+
+.cookingmamacuisine-text {
+  font-family: Arial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 15px;
+  font-size: 20px;
+}
+.cookingmamacuisine-h2 {
+  font-family: Arial;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  font-size: 25px;
+  padding-top: 30px;
+}
+#iphone13-h1 {
+  font-family: Arial;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 55px;
+  margin: 0;
+  font-size: 40px;
+}
+#iphone13-text {
+  font-family: Arial;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 9px;
+  margin: 0;
+  font-size: 20px;
+}
+#iphone13pro-h2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial;
+  padding-top: 90px;
+  font-size: 35px;
+}
+#iphone13pro-text {
+  font-family: Arial;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  font-size: 20px;
+}
+#applewatch-h3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial;
+  padding-top: 90px;
+  font-size: 35px;
+}
+#applewatch-series7 {
+  font-family: Arial;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  font-size: 15px;
+  color: rgb(206, 1, 1);
+  padding-bottom: 1px;
+}
+#applewatch-p1 {
+  font-family: Arial;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  font-size: 17px;
+  margin-top: 8px;
+}
+#ipad-p1 {
+  font-family: Arial;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15px;
+  margin: 0;
+  font-size: 20px;
+}
+
+#outer-content-div {
+  background-color: rgb(241, 239, 239);
+  width: 100%;
+  height: 800px;
+  margin-top: -176px;
+  background-position: center;
+}
+#content-div {
+  background-color: rgb(241, 239, 239);
+  margin-right: 20%;
+  margin-left: 20%;
+  height: 600px;
+  margin-top: -176px;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  font-family: Arial;
+  font-size: 10px;
+  text-align: left;
+  flex-direction: column;
+  color: rgb(164, 161, 161);
+  flex-direction: row;
+  line-height: 16px;
+  margin-top: 15px;
+}
+#bottom {
+  border-bottom: 1px solid rgb(164, 161, 161);
+  padding-bottom: 20px;
+  font-size: 10px;
+  line-height: 16px;
+}
+.website {
+  font-size: 10px;
+  font-family: Arial;
+  text-align: left;
+  color: rgb(114, 114, 114);
+  text-decoration: none;
+}
+
+.website:hover {
+  text-decoration: underline;
+}
+.column-links {
+  font-size: 10px;
+  font-family: Arial;
+  color: rgb(117, 117, 117);
+  display: flex;
+  flex-direction: column;
+  margin-top: 9px;
+  padding-right: 30px;
+  text-decoration: none;
+}
+.column-links a {
+  text-decoration: none;
+}
+.column-links a:hover {
+  text-decoration: underline;
+}
+#column-link {
+  font-size: 10px;
+  font-family: Arial;
+  color: rgb(164, 161, 161);
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 9px;
+}
+.column-headers {
+  font-size: 10px;
+  font-family: Arial;
+  color: rgb(86, 86, 86);
+}
+.column-headers2 {
+  font-size: 10px;
+  font-family: Arial;
+  color: rgb(86, 86, 86);
+  padding-top: 25px;
+}
+#footer {
+  display: flex;
+}
+#shopLearn {
+  margin-right: 70px;
+}
+#account {
+  padding-top: 25px;
+}
+#apple-store {
+  margin-right: 70px;
+  padding-top: 9px;
+}
+#for-education {
+  margin-right: 70px;
+  padding-top: 9px;
+  color: rgb(86, 86, 86);
+}
+
+#applevalues {
+  margin-right: 70px;
+  color: rgb(86, 86, 86);
+  margin-left: 170px;
+  margin-top: -390px;
+}
+#more-ways-to-shop {
+  background-color: gb(164, 161, 161);
+  height: 100px;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  margin-left: -1vh;
+  margin-top: 18px;
+  margin-bottom: 10px;
+}
+
+.website2 {
+  font-size: 10px;
+  font-family: Arial;
+  text-align: left;
+  padding-left: 3px;
+  padding-right: 3px;
+  color: rgb(67, 67, 255);
+}
+
+.copyright {
+  background-color: gb(164, 161, 161);
+  height: 100px;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  margin-left: -1vh;
+  margin-top: 0px;
+}
+
+.copyright-links {
+  white-space: nowrap;
+  font-family: Arial;
+  font-size: 10px;
+  text-align: left;
+  display: flex;
+  color: rgb(164, 161, 161);
+  flex-direction: row;
+  margin: 15px;
+  border-right: 1px solid rgb(167, 167, 167);
+  padding-right: 18px;
+  text-decoration: none;
+}
+
+#navBar {
+  margin: 0 auto;
+  width: 100%;
+  height: 40px;
+  padding: 0 22px;
+  position: fixed;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(54, 54, 54);
+}
+
+.navBar-content {
+  font-size: 10px;
+  font-family: Arial;
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+  padding-right: 40px;
+  text-decoration: none;
+}
+
+#content-unitedstates {
+  font-family: Arial;
+  font-size: 10px;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  color: rgb(164, 161, 161);
+  margin-right: -360px;
+}
+#below {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-left: 30px;
+}
+
+#below a {
+  text-decoration: none;
+}
+#unicef {
+  width: 100%;
+  height: 110px;
+  font-size: 40px;
+  background-color: rgb(241, 240, 240);
+  font-family: Arial;
+}
+
+#unicef-title {
+  display: flex;
+  padding-top: 55px;
+  justify-content: center;
+  font-family: sans-serif;
+  padding-bottom: 60px;
+  font-size: 30px;
+}
+
+#unicef-ukraine-link {
+  color: #06c;
+  text-decoration: none;
+
+  font-size: 14px;
+  vertical-align: middle;
+  padding-left: 14px;
+  padding-right: 25px;
+  font-weight: 300;
+}
+
+#footer-2-line {
+  border: 0.6px solid grey;
+  width: 100%;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  display: flex;
+  justify-content: center;
+}
+
+.names-div {
+  display: flex;
+  align-items: center;
+}
+
+#search-icon {
+  background-repeat: no-repeat;
+  width: 15px;
+}
+
+#bag-icon {
+  background-repeat: no-repeat;
+  background-size: 13px 44px;
+  width: 13px;
+  padding-left: 30px;
+}
